@@ -21,6 +21,13 @@ const PollSchema = new mongoose.Schema({
     required:true,
   },
   candidates:[candidateSchema],
+  totalVotes:{
+    type:Number,
+    default:0
+  },
+  voted:[{
+    name:String
+  }]
 })
 
 module.exports= mongoose.model("Poll", PollSchema)

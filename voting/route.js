@@ -4,14 +4,17 @@ const{
   addPoll,
   deletePoll,
   addPollOption,
-  delPollOption
+  delPollOption,
+  addVote
 }= require("./controller")
 
 router.get("/poll", poll)
 router.post("/poll", addPoll)
 router.delete("/poll", deletePoll)
 
-router.put("/poll/option", addPollOption)
+router.post("/poll/option", addPollOption)
 router.delete("/poll/option", delPollOption)
+
+router.post("/poll/vote", addVote)
 // router.post("/poll", dellPoll)
 module.exports = router

@@ -2,5 +2,31 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.8.2"
-  }
+  },
+  "name": "voting-system",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feevah002/voting-system.git"
+  },
+  "keywords": [
+    "voting",
+    "system",
+    "nodejs",
+    "mongodb",
+    "express",
+    "vsc"
+  ],
+  "author": "udegbunam emmanuel ikenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feevah002/voting-system/issues"
+  },
+  "homepage": "https://github.com/feevah002/voting-system#readme",
+  "description": ""
 }
